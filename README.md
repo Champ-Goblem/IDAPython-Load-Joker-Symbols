@@ -1,13 +1,13 @@
 About
 =====
-Takes the symbol file produced by <code>jtool -j &lt;kernelcache&rt;</code> and imports any of the symbols that have been discovered by the program.
+Takes the symbol file produced by <code>jtool -j &lt;kernelcache&gt;</code> and imports any of the symbols that have been discovered by the program.
 
 It does not import symbols labeled as <code>_func_</code>
 
 Usage
 =====
 Generate the symbol file using:
-<pre><code>jtool -j &lt;kernelcache&rt;</code></pre>
+<pre><code>jtool -j &lt;kernelcache&gt;</code></pre>
 with a decrypted kernelcache
 
 Then ensure that that file produced by is in the current working directory where IDA is analysing the kernelcache
@@ -17,7 +17,7 @@ Now load the script into IDA with <code>File->Script File</code> and select <cod
 
 The python utility will be imported as <code>imp</code>
 
-Now run the script using <code>imp.import_symbols("&lt;kernelcache.sym File&rt;")</code>
+Now run the script using <code>imp.import_symbols("&lt;kernelcache.sym File&gt;")</code>
 
 Reloading the module after change
 =================================
