@@ -11,7 +11,7 @@ Generate the symbol file using:
 with a decrypted kernelcache
 
 Then ensure that that file produced by is in the current working directory where IDA is analysing the kernelcache
-<b>Advised to rename the file to kernelcache.sym or something easier to remember</b>
+<br><b>Advised to rename the file to kernelcache.sym or something easier to remember</b>
 
 Now load the script into IDA with <code>File->Script File</code> and select <code>ida_load_joker_sym.py</code>
 
