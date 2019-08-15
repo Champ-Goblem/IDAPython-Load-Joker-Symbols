@@ -2,7 +2,7 @@ About
 =====
 Takes the symbol file produced by <code>jtool -j &lt;kernelcache&gt;</code> and imports any of the symbols that have been discovered by the program.
 
-It does not import symbols labeled as <code>^_func^_</code>
+It does not import symbols labeled as <code>&#95;func&#95;</code>
 
 Usage
 =====
